@@ -14,7 +14,7 @@ import java.util.Date;
 @AllArgsConstructor
 public abstract class BaseDTO {
 
-    @ApiModelProperty(value = "The id of the object")
+    @ApiModelProperty(value = "The identifier of the object")
     private Long id;
 
     @ApiModelProperty(value = "The date when the object was created")
